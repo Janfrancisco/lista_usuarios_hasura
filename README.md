@@ -3,12 +3,14 @@
 Simples projeto para prova de conceitos:
 
 Cadastro de clientes com a utilização de back end feito em Hasura.
+
 Utilização da ferramenta CustomPainter para estilizar um background de tela.
 
 ## Telas do App:
 
-![WhatsApp Image 2021-08-12 at 17 10 24(1)](https://user-images.githubusercontent.com/16168704/129270631-81a7d799-6873-4313-88a7-8070f5685c47.jpeg)
-![WhatsApp Image 2021-08-12 at 17 10 24](https://user-images.githubusercontent.com/16168704/129270637-5c9b51ce-e24d-4bc9-a270-0cfc45a9b6ee.jpeg)
+![Capturar](https://user-images.githubusercontent.com/16168704/129271979-98cb50bc-4100-42d3-8279-922e467cce66.JPG)
+![Capturar2](https://user-images.githubusercontent.com/16168704/129271988-af8c1fda-2a69-46f6-b21d-a7289a8cd40d.JPG)
+
 
 
 This project is a starting point for a Flutter application.
