@@ -1,13 +1,13 @@
 import 'dart:math';
 
 import 'package:hasura_connect/hasura_connect.dart';
+import 'package:testeBloc/config.dart';
 import 'package:testeBloc/models/user-model.dart';
 
 import '../models/user-model.dart';
 
 class UserRepository {
-  HasuraConnect hasuraConnect =
-      HasuraConnect('https://big-dingo-14.hasura.app/v1/graphql');
+  HasuraConnect hasuraConnect = HasuraConnect(HASURA_URL);
 
   Future<List<User>> getHaUsers() async {
     var query = """
