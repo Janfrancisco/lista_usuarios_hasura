@@ -1,13 +1,14 @@
 import 'dart:math';
 
 import 'package:hasura_connect/hasura_connect.dart';
-import 'package:testeBloc/config.dart';
 import 'package:testeBloc/models/user-model.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import '../models/user-model.dart';
 
 class UserRepository {
-  HasuraConnect hasuraConnect = HasuraConnect(HASURA_URL);
+  static final url = dotenv.env['HASURA_URL'];
+  HasuraConnect hasuraConnect = HasuraConnect(url);
 
   Future<List<User>> getHaUsers() async {
     var query = """

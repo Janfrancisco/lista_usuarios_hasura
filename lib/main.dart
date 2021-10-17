@@ -1,12 +1,14 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:testeBloc/bloc/User-Bloc.dart';
 import 'package:testeBloc/repository/pokemon-repository.dart';
 import 'package:testeBloc/screens/newUser-screen.dart';
 import 'package:testeBloc/screens/pokemons-screen.dart';
 import 'package:testeBloc/screens/users-screen.dart';
 
-void main() {
+void main() async {
+  await dotenv.load(fileName: ".env");
   runApp(MyApp());
 }
 
